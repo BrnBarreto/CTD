@@ -35,7 +35,29 @@
     height: 200px;
     background-color: silver;
     padding: 24px;
+    position: relative;
 
+}
+.caixa2 {
+
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    padding: 24px;
+    right: 0;
+    position: absolute;
+    top:0;
+
+}
+.caixa3 {
+
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    padding: 24px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
 }
 
 .caixa-interna {
@@ -43,5 +65,8 @@
     width: 100%;
     height: 100%;
     background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }

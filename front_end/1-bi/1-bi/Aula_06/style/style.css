@@ -1,0 +1,51 @@
+ /* @import url ('https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 1.300 & display = swap');
+
+article {
+
+    background-image: url("https://spinoff.com.br/wp-content/uploads/Os-Simpsons.jpg");
+    background-reapet: no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position:center;
+}
+h1{
+    família da fonte: 'Poppins', sans-serif;
+    text-align-last: center;
+}  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.media-picture {
+    background-image: url("http://www.revistaestilolivre.com.br/site/wp-content/uploads/2019/05/destaque_avengers.png"); no-repeat left bottom;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-reapet: no-repeat;
+    
+}
+.review-score{
+    color:white;
+    família da fonte: 'Poppins', sans-serif;
+    background-color:#e6bd09;
+    padding: 12px;
+}
+    
+
+
+
+h1{
+    color:white;
+    ffamília da fonte: 'Poppins', sans-serif
+}
+h2{
+    color:steelblue
+}
+body{
+    background-color:  #131313;
+}
+p{
+    color: white;
+    família da fonte: 'Poppins', sans-serif;
+}
+a {
+    color:yellow;
+}

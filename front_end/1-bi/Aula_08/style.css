@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .square {
+
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+
+}
+.first-square{
+
+    background-color: black;
+    top: 20px;
+    left: 100px;
+    position: fixed;
+}
+.second-square{
+    
+    background-color: blue;
+    position: absolute;
+    top:0;
+}
+.third-square{
+    color: blue;
+    background-color: salmon;
+    position: fixed; */
+
+
+.caixa1 {
+
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    padding: 24px;
+
+}
+
+.caixa-interna {
+
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+
+}

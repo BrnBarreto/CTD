@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import  url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?família=Louvorefamília=Road+Rage&family=Roboto:wght@300&display=swap');
+
+
+.titulo{
+    
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 200;
+    background-color: silver;
+    padding: 10px;
+    família da fonte: 'Roboto', sans-serif;
+}
+
+
+.introducao{
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+
+.corpo{
+    background-image: url("img/favela1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#principal{
+    text-align: center;
+    margin-top: 20px;
+}
+iframe{
+    border-radius: 25px;
+}
+
+
+
+
+.title2 {
+    
+    margin-top: 40px;
+    color: gold;
+    font-size: 35px;
+
+}
+
+#informacoes{
+    color: white;
+    margin-top: 10px;
+    font-size: 30px
+    família de fontes: 'Louvor', cursiva;
+}
+
+.pe img{
+    width: 50px;
+    height: auto;
+}
+.icones1{
+
+    text-align: center;
+    right: 10px;
+    
+    top: 10px;
+    position: fixed;
+}
+
+.icones2{
+
+    
+    right: 70px;
+    
+    top: 10px;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

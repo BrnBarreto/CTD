@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+#banner{
+    
+    background-size: cover;
+    background-position: center;
+    /* background-reapet: no-repeat; */
+}

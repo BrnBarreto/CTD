@@ -27,19 +27,19 @@
 
 let peliculas = ["star wars", "totoro",  "rocky", "pulp fiction",  "la vida es bella"]
 
-// function convertirAMayusculas(array){
+function convertirAMayusculas(array){
     
-//      for(let i =0; i < array.length; i++){
-//         // console.log(array[i]);
-//         array[i] = array[i].toUpperCase()
+     for(let i =0; i < array.length; i++){
+        // console.log(array[i]);
+        array[i] = array[i].toUpperCase()
         
-//      }
-//      return array;
-//     }
+     }
+     return array;
+    }
 
-//    console.log(convertirAMayusculas(peliculas));
+   console.log(convertirAMayusculas(peliculas));
 
-//    2 - 
+   2 - 
 
 let peliculas1 = [];
    function pasajeDeElementos(array1, array2) {

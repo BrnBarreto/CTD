@@ -1,17 +1,60 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.menu{
-    background-color: black;
-    color:white;
-    text-align: center;
+.main-header {
+
+background-color: silver;
+padding: 24px 0;
+
 }
 
-#banner{
-    
-    background-size: cover;
-    background-position: center;
-    /* background-reapet: no-repeat; */
+.main-header nav{
+max-width: 1200px;
+margin: 0 auto;
 }
+.main-header ul {
+
+display: flex;
+list-style: none;
+gap: 32px;
+
+
+}
+.main-header li a {
+
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px;
+}
+
+.main-p {
+
+    background-image: url("familia.jpeg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+button{
+    border-radius: 12px;
+    padding: 2px;
+    background-color:black;
+
+}
+#zapp{
+
+    position: fixed;
+    top: 10px;
+    right: 20px;
+
+}
+#icone{
+    height: 30PX;
+    width: 30PX;
+}
+

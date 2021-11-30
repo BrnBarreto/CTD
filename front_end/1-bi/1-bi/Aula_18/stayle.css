@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-menu{
+    display:flex;
+    background-color: #5c5638;
+    list-style: nome;
+    gap: 12px;
+
+}
+.main-menu a {
+    color: white;
+    text-decoration: nome;
+}

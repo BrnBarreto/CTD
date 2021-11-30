@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anima{
+
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+

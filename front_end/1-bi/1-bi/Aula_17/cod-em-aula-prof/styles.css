@@ -1,0 +1,84 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #131313;
+
+}
+
+main {
+
+    padding: 72px;
+
+}
+
+@keyframes float {
+
+    0% {
+
+        opacity: .5;
+        transform: translate(0, -50px);
+
+    }
+    50% {
+
+        opacity: 1;
+        transform: translate(0, 100px);
+
+    }
+    100% {
+
+        opacity: .5;
+        transform: translate(0, -50px);
+
+    }
+
+}
+
+.ghost {
+
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    margin-bottom: 32px;
+    animation-name: float;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.main-button {
+
+    color: white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #5ac4e4;
+    transition: .5s ease-in-out;
+
+}
+
+/* trnasfom-origin */
+
+.main-button:hover {
+
+    color: black;
+    background-color: #bee9f6;
+    transform: rotate(120deg);
+
+}
+
+p {
+
+    color: white;
+    font-size: 22px;
+    margin-top: 24px;
+
+}

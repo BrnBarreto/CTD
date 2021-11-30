@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <h1>
+            Cadastro de usuário
+        </h1> 
+        <fieldset>
+
+            <legend>Dados pessoais </legend>
+
+            <div>
+                <label for="Username">
+                    nome
+                </label><input type="text"  name =" Username" id="Username" placeholder="Nome">
+            </div>
+    
+            <label for="datanascimento">Data de nascimento</label>
+            <input type="date" name="datanascimento" id="datanascimento">
+    
+
+        </fieldset>
+        
+
+        <br>
+
+        <h1>Data Agendar entrega</h1>
+
+        
+        <label for="Entrega">Data da Entrega</label>
+        <input type="date" name="entrega" id="entrega" min= 2021-11-15 max=2021-11-19>
+
+        <div>
+            <label for="userPassword">Senha</label><input type="password"  name =" userPassword" id="userPassword" placeholder="Digite o nome">
+        </div>
+        <br>
+        <div>
+
+            <label for="email1">Digite o usuário</label><input type="email"  name =" email1" id="email1" placeholder="digiteEmail">
+
+        </div>
+        <br>
+       <div>
+
+        <label for="">Depoimento</label>
+        <textarea nome= "userDescription" id= "userDescription">
+
+        </textarea>
+
+
+       </div>
+
+       <div>
+        <label for="userPlaning">Plano </label>
+        <select name="userPlaning" id="userPlaning">  
+        <option value="1">Basico</option>
+        <option value="2"2>Médio</option>
+        <option value="3">Top</option>   
+        <option value="4">totp top</option>      
+        </select>
+       </div>
+       <div>
+           <h1>Pagamento</h1>
+            <input type="radio" name="pagamento" id="credito">
+            <label for="credito">Crédito</label>
+           
+            <input type="radio" name="pagamento" id="debito" checked>
+            <label for="debito">Débito</label>
+            
+            <input type="radio" name="pagamento" id="boleto">
+            <label for="boleto">Crédito</label>
+          
+
+
+
+       </div>
+
+
+       <div>
+
+        <h1>Entrega</h1>
+            <input type="radio" name="entrega" id="carro">
+            <label for="credito">Carro</label>
+           
+            <input type="radio" name="entrega" id="moto" checked>
+            <label for="moto">Moto</label>
+            
+
+       </div>
+
+       <div>
+
+        <h1>Pode escolher mais de uma opção</h1>
+
+            <input type="checkbox" name = "recomendado" id="fone">
+            <label for="fone">Fone</label>
+
+            <input type="checkbox" name = "recomendado" id="carregador">
+            <label for="carregador">Carregador</label>
+
+
+    </div>
+
+       <button  type = "submit">
+           Cadastrar
+       </button>
+       <button type="reset"> Resetar</button>
+
+
+    </form>
+    
+</body>
+</html>

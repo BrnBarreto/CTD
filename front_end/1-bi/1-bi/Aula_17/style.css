@@ -1,0 +1,44 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* revendo ultima aula */
+main{
+
+        padding: 34px;
+
+}
+.main-button{
+    color: #ffffff;
+    border: 0;
+    padding: 24px;
+    font-size:  24px;
+    border-radius: 12px;
+    background-color: #fd8b7f;
+    /* transition: 1s ease-in-out .5s; */
+    /* transition-duration: 2s; */
+    /* transition-property: background, padding; */
+    /* transition-timing-function: ; */
+    transform-origin: rotate top left;
+}
+.main-button:hover{
+
+    /* background-color: sandybrown;
+    font-size: 24px; */
+    transform-origin: rotate(120deg);
+    
+    /* transform: translate(12px -40px);  */
+    /* rotate(1080deg);  */
+    /* skew(-10deg); */
+    /* Acima, estão a transformação, usando uma escala(scale) e angulação do bottun(skew) */
+    
+}
+
+p{
+    margin-top: 14px;
+    font-size: 20px;
+    color: seagreen;
+}
+/*  Animações */

@@ -50,7 +50,7 @@
 
 
 
-let fizzBuss = (para1,para2) => {
+let FizzBuss = (para1,para2) => {
 
 for ( let i = 0; 1<= 100; i++) {
 
@@ -68,14 +68,14 @@ for ( let i = 0; 1<= 100; i++) {
 
         } else {   
 
-            return i ;
+            return i 
 
         }  
 
     } 
 }
 
-consle.log(fizzBuss(3,3))
+console.log(FizzBuss(3,3))
 
 
 

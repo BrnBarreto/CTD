@@ -56,26 +56,26 @@ for ( let i = 0; 1<= 100; i++) {
 
         if ( i % para1 == 0 && i % para2 == 0 ) {
 
-            console.log( "FizzBuzz" );
+            return "FizzBuzz" 
 
         } else if (i % para1 == 0 ){
 
-            console.log("Fizz");
+            return "Fizz"
 
         } else if (i % para2 == 0 ) {
 
-            console.log("Buzz");
+            return "Buzz" 
 
         } else {   
 
-            console.log(i);
+            return i ;
 
         }  
 
     } 
 }
 
-fizzBuss(2,5);
+consle.log(fizzBuss(3,3))
 
 
 

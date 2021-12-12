@@ -41,7 +41,7 @@ html{
     background-attachment: fixed;
   }
   .banner .banner-text {
-     width: 940px;
+     width: 100vw;
     color: #fff;
     display: flex;
     flex-direction: column;

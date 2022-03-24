@@ -43,25 +43,25 @@
    function addImg () {
 
       let linkimagem = document.querySelector(".abc").value;
-      let img = document.querySelector("#imagem"); 
-      img.setAttribute("src",linkimagem) 
+      // let img = document.querySelector("#imagem"); 
+      // img.setAttribute("src",linkimagem) 
 
-      // let addtitle = document.querySelector("#titulo").value;
+      let addtitle = document.querySelector("#titulo").value;
       // let title  = document.querySelector(".title"); 
       // title.innerHTML = addtitle;
 
-      // let addDesc = document.querySelector("#descricao").value;
+      let addDesc = document.querySelector("#descricao").value;
       // let desc  = document.querySelector("p");
       //  desc.innerHTML = addDesc;
       
       let base = 
       `<div class="card">
    
-      <img  id="imagem" src="${linkimagem}" alt="">
+      <img  id="imagem" src=${linkimagem} alt="">
    
-      <h2 class="title"> Naruto Criança </h2>
+      <h2 class="title"> ${addtitle} </h2>
       <br>
-      <p id="paragrafo">Dolore quidem iste </p>
+      <p id="paragrafo">${addDesc}</p>
    
    </div>  `;
    
